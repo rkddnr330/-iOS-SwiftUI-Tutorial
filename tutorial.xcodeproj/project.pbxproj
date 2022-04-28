@@ -19,6 +19,9 @@
 		776E3C36281793D1007D3D7A /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3C35281793D1007D3D7A /* StackView.swift */; };
 		776E3C382818DA8E007D3D7A /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3C372818DA8E007D3D7A /* ButtonView.swift */; };
 		776E3C3A2818E0AE007D3D7A /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3C392818E0AE007D3D7A /* TextFieldView.swift */; };
+		776E3C76281A222D007D3D7A /* StateBindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3C75281A222D007D3D7A /* StateBindingView.swift */; };
+		776E3C78281A2F87007D3D7A /* BindingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3C77281A2F87007D3D7A /* BindingView.swift */; };
+		776E3C7A281A362C007D3D7A /* ToggleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3C79281A362B007D3D7A /* ToggleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		776E3C35281793D1007D3D7A /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
 		776E3C372818DA8E007D3D7A /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		776E3C392818E0AE007D3D7A /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		776E3C75281A222D007D3D7A /* StateBindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateBindingView.swift; sourceTree = "<group>"; };
+		776E3C77281A2F87007D3D7A /* BindingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingView.swift; sourceTree = "<group>"; };
+		776E3C79281A362B007D3D7A /* ToggleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +152,9 @@
 				776E3C372818DA8E007D3D7A /* ButtonView.swift */,
 				776E3C392818E0AE007D3D7A /* TextFieldView.swift */,
 				776E3C3028178F37007D3D7A /* TextView.swift */,
+				776E3C79281A362B007D3D7A /* ToggleView.swift */,
+				776E3C75281A222D007D3D7A /* StateBindingView.swift */,
+				776E3C77281A2F87007D3D7A /* BindingView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -280,6 +289,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				776E3C76281A222D007D3D7A /* StateBindingView.swift in Sources */,
 				776E3C3328178F4A007D3D7A /* ImageView.swift in Sources */,
 				776E3C3A2818E0AE007D3D7A /* TextFieldView.swift in Sources */,
 				776E3C3128178F37007D3D7A /* TextView.swift in Sources */,
@@ -287,6 +297,8 @@
 				776E3C0928178B6B007D3D7A /* ContentView.swift in Sources */,
 				776E3C0728178B6B007D3D7A /* tutorialApp.swift in Sources */,
 				776E3C36281793D1007D3D7A /* StackView.swift in Sources */,
+				776E3C7A281A362C007D3D7A /* ToggleView.swift in Sources */,
+				776E3C78281A2F87007D3D7A /* BindingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
