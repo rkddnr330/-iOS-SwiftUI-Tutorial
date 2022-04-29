@@ -27,6 +27,9 @@
 		776E3D5A281AEBFB007D3D7A /* SpacerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3D59281AEBFB007D3D7A /* SpacerView.swift */; };
 		776E3D5C281AEED6007D3D7A /* DividerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3D5B281AEED6007D3D7A /* DividerView.swift */; };
 		776E3D5E281AEFAF007D3D7A /* Ch1Project.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3D5D281AEFAF007D3D7A /* Ch1Project.swift */; };
+		776E3D62281B7A4D007D3D7A /* ForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3D61281B7A4D007D3D7A /* ForEachView.swift */; };
+		776E3D66281B7F26007D3D7A /* StaticListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3D65281B7F26007D3D7A /* StaticListView.swift */; };
+		776E3D68281B7F36007D3D7A /* DynamicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3D67281B7F36007D3D7A /* DynamicListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,9 @@
 		776E3D59281AEBFB007D3D7A /* SpacerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacerView.swift; sourceTree = "<group>"; };
 		776E3D5B281AEED6007D3D7A /* DividerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DividerView.swift; sourceTree = "<group>"; };
 		776E3D5D281AEFAF007D3D7A /* Ch1Project.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ch1Project.swift; sourceTree = "<group>"; };
+		776E3D61281B7A4D007D3D7A /* ForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachView.swift; sourceTree = "<group>"; };
+		776E3D65281B7F26007D3D7A /* StaticListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticListView.swift; sourceTree = "<group>"; };
+		776E3D67281B7F36007D3D7A /* DynamicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicListView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +163,7 @@
 		776E3C3428178F4D007D3D7A /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				776E3D60281B7A3C007D3D7A /* Ch2 */,
 				776E3D5F281AEFB3007D3D7A /* Ch1 */,
 			);
 			path = Views;
@@ -180,6 +187,16 @@
 				776E3C79281A362B007D3D7A /* ToggleView.swift */,
 			);
 			path = Ch1;
+			sourceTree = "<group>";
+		};
+		776E3D60281B7A3C007D3D7A /* Ch2 */ = {
+			isa = PBXGroup;
+			children = (
+				776E3D61281B7A4D007D3D7A /* ForEachView.swift */,
+				776E3D65281B7F26007D3D7A /* StaticListView.swift */,
+				776E3D67281B7F36007D3D7A /* DynamicListView.swift */,
+			);
+			path = Ch2;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,13 +337,16 @@
 				776E3C3A2818E0AE007D3D7A /* TextFieldView.swift in Sources */,
 				776E3C3128178F37007D3D7A /* TextView.swift in Sources */,
 				776E3C382818DA8E007D3D7A /* ButtonView.swift in Sources */,
+				776E3D68281B7F36007D3D7A /* DynamicListView.swift in Sources */,
 				776E3D56281AE3D4007D3D7A /* PickerView.swift in Sources */,
 				776E3C0928178B6B007D3D7A /* ContentView.swift in Sources */,
 				776E3C0728178B6B007D3D7A /* tutorialApp.swift in Sources */,
 				776E3C36281793D1007D3D7A /* StackView.swift in Sources */,
+				776E3D66281B7F26007D3D7A /* StaticListView.swift in Sources */,
 				776E3D58281AE9D9007D3D7A /* CustomPickerView.swift in Sources */,
 				776E3C7A281A362C007D3D7A /* ToggleView.swift in Sources */,
 				776E3C78281A2F87007D3D7A /* BindingView.swift in Sources */,
+				776E3D62281B7A4D007D3D7A /* ForEachView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
