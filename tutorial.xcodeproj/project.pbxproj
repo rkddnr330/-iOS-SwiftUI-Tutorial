@@ -30,6 +30,7 @@
 		776E3D62281B7A4D007D3D7A /* ForEachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3D61281B7A4D007D3D7A /* ForEachView.swift */; };
 		776E3D66281B7F26007D3D7A /* StaticListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3D65281B7F26007D3D7A /* StaticListView.swift */; };
 		776E3D68281B7F36007D3D7A /* DynamicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3D67281B7F36007D3D7A /* DynamicListView.swift */; };
+		776F4B532820040F009DC650 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776F4B522820040F009DC650 /* StoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +77,7 @@
 		776E3D61281B7A4D007D3D7A /* ForEachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForEachView.swift; sourceTree = "<group>"; };
 		776E3D65281B7F26007D3D7A /* StaticListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticListView.swift; sourceTree = "<group>"; };
 		776E3D67281B7F36007D3D7A /* DynamicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicListView.swift; sourceTree = "<group>"; };
+		776F4B522820040F009DC650 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				776E3D61281B7A4D007D3D7A /* ForEachView.swift */,
+				776F4B522820040F009DC650 /* StoryView.swift */,
 				776E3D65281B7F26007D3D7A /* StaticListView.swift */,
 				776E3D67281B7F36007D3D7A /* DynamicListView.swift */,
 			);
@@ -330,6 +333,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				776E3D5E281AEFAF007D3D7A /* Ch1Project.swift in Sources */,
+				776F4B532820040F009DC650 /* StoryView.swift in Sources */,
 				776E3C76281A222D007D3D7A /* StateBindingView.swift in Sources */,
 				776E3D5A281AEBFB007D3D7A /* SpacerView.swift in Sources */,
 				776E3D5C281AEED6007D3D7A /* DividerView.swift in Sources */,
