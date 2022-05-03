@@ -31,6 +31,10 @@
 		776E3D66281B7F26007D3D7A /* StaticListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3D65281B7F26007D3D7A /* StaticListView.swift */; };
 		776E3D68281B7F36007D3D7A /* DynamicListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776E3D67281B7F36007D3D7A /* DynamicListView.swift */; };
 		776F4B532820040F009DC650 /* StoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776F4B522820040F009DC650 /* StoryView.swift */; };
+		776F4B552820B5DA009DC650 /* AnimalMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776F4B542820B5DA009DC650 /* AnimalMainView.swift */; };
+		776F4B572820BADA009DC650 /* AnimalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776F4B562820BADA009DC650 /* AnimalData.swift */; };
+		776F4B592820BD54009DC650 /* AnimalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776F4B582820BD54009DC650 /* AnimalListView.swift */; };
+		776F4B5B2820BF37009DC650 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776F4B5A2820BF37009DC650 /* AnimalDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +82,10 @@
 		776E3D65281B7F26007D3D7A /* StaticListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaticListView.swift; sourceTree = "<group>"; };
 		776E3D67281B7F36007D3D7A /* DynamicListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicListView.swift; sourceTree = "<group>"; };
 		776F4B522820040F009DC650 /* StoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryView.swift; sourceTree = "<group>"; };
+		776F4B542820B5DA009DC650 /* AnimalMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalMainView.swift; sourceTree = "<group>"; };
+		776F4B562820BADA009DC650 /* AnimalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalData.swift; sourceTree = "<group>"; };
+		776F4B582820BD54009DC650 /* AnimalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListView.swift; sourceTree = "<group>"; };
+		776F4B5A2820BF37009DC650 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +204,10 @@
 			children = (
 				776E3D61281B7A4D007D3D7A /* ForEachView.swift */,
 				776F4B522820040F009DC650 /* StoryView.swift */,
+				776F4B542820B5DA009DC650 /* AnimalMainView.swift */,
+				776F4B562820BADA009DC650 /* AnimalData.swift */,
+				776F4B582820BD54009DC650 /* AnimalListView.swift */,
+				776F4B5A2820BF37009DC650 /* AnimalDetailView.swift */,
 				776E3D65281B7F26007D3D7A /* StaticListView.swift */,
 				776E3D67281B7F36007D3D7A /* DynamicListView.swift */,
 			);
@@ -333,7 +345,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				776E3D5E281AEFAF007D3D7A /* Ch1Project.swift in Sources */,
+				776F4B552820B5DA009DC650 /* AnimalMainView.swift in Sources */,
 				776F4B532820040F009DC650 /* StoryView.swift in Sources */,
+				776F4B5B2820BF37009DC650 /* AnimalDetailView.swift in Sources */,
 				776E3C76281A222D007D3D7A /* StateBindingView.swift in Sources */,
 				776E3D5A281AEBFB007D3D7A /* SpacerView.swift in Sources */,
 				776E3D5C281AEED6007D3D7A /* DividerView.swift in Sources */,
@@ -343,6 +357,7 @@
 				776E3C382818DA8E007D3D7A /* ButtonView.swift in Sources */,
 				776E3D68281B7F36007D3D7A /* DynamicListView.swift in Sources */,
 				776E3D56281AE3D4007D3D7A /* PickerView.swift in Sources */,
+				776F4B592820BD54009DC650 /* AnimalListView.swift in Sources */,
 				776E3C0928178B6B007D3D7A /* ContentView.swift in Sources */,
 				776E3C0728178B6B007D3D7A /* tutorialApp.swift in Sources */,
 				776E3C36281793D1007D3D7A /* StackView.swift in Sources */,
@@ -350,6 +365,7 @@
 				776E3D58281AE9D9007D3D7A /* CustomPickerView.swift in Sources */,
 				776E3C7A281A362C007D3D7A /* ToggleView.swift in Sources */,
 				776E3C78281A2F87007D3D7A /* BindingView.swift in Sources */,
+				776F4B572820BADA009DC650 /* AnimalData.swift in Sources */,
 				776E3D62281B7A4D007D3D7A /* ForEachView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
