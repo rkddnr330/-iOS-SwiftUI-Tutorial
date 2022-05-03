@@ -35,6 +35,8 @@
 		776F4B572820BADA009DC650 /* AnimalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776F4B562820BADA009DC650 /* AnimalData.swift */; };
 		776F4B592820BD54009DC650 /* AnimalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776F4B582820BD54009DC650 /* AnimalListView.swift */; };
 		776F4B5B2820BF37009DC650 /* AnimalDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776F4B5A2820BF37009DC650 /* AnimalDetailView.swift */; };
+		776F4B5D2820C8E4009DC650 /* AnimalTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776F4B5C2820C8E4009DC650 /* AnimalTabView.swift */; };
+		776F4B5F2820C931009DC650 /* AnimalLikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 776F4B5E2820C931009DC650 /* AnimalLikeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +88,8 @@
 		776F4B562820BADA009DC650 /* AnimalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalData.swift; sourceTree = "<group>"; };
 		776F4B582820BD54009DC650 /* AnimalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalListView.swift; sourceTree = "<group>"; };
 		776F4B5A2820BF37009DC650 /* AnimalDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetailView.swift; sourceTree = "<group>"; };
+		776F4B5C2820C8E4009DC650 /* AnimalTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalTabView.swift; sourceTree = "<group>"; };
+		776F4B5E2820C931009DC650 /* AnimalLikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalLikeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,6 +209,8 @@
 				776E3D61281B7A4D007D3D7A /* ForEachView.swift */,
 				776F4B522820040F009DC650 /* StoryView.swift */,
 				776F4B542820B5DA009DC650 /* AnimalMainView.swift */,
+				776F4B5C2820C8E4009DC650 /* AnimalTabView.swift */,
+				776F4B5E2820C931009DC650 /* AnimalLikeView.swift */,
 				776F4B562820BADA009DC650 /* AnimalData.swift */,
 				776F4B582820BD54009DC650 /* AnimalListView.swift */,
 				776F4B5A2820BF37009DC650 /* AnimalDetailView.swift */,
@@ -354,6 +360,8 @@
 				776E3C3328178F4A007D3D7A /* ImageView.swift in Sources */,
 				776E3C3A2818E0AE007D3D7A /* TextFieldView.swift in Sources */,
 				776E3C3128178F37007D3D7A /* TextView.swift in Sources */,
+				776F4B5F2820C931009DC650 /* AnimalLikeView.swift in Sources */,
+				776F4B5D2820C8E4009DC650 /* AnimalTabView.swift in Sources */,
 				776E3C382818DA8E007D3D7A /* ButtonView.swift in Sources */,
 				776E3D68281B7F36007D3D7A /* DynamicListView.swift in Sources */,
 				776E3D56281AE3D4007D3D7A /* PickerView.swift in Sources */,

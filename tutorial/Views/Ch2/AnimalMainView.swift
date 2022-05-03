@@ -13,6 +13,7 @@ struct AnimalMainView: View {
     
     var body: some View {
         NavigationView{
+            
             List(animalsInView){ each in
                 NavigationLink(destination:AnimalDetailView(animalsInDetail: each)){
                     AnimalListView(animalsInList: each)
